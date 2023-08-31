@@ -363,8 +363,6 @@ nav>#logo>i {
     }   
 }
 
-
-
 #page4{
     position: relative;
     height: 100vh;
@@ -459,7 +457,7 @@ nav>#logo>i {
 @media (max-width: 540px){
     #page5{
         flex-direction: column;
-        height: 70vh;
+        height: 75vh;
         width: 100vw;
     }
     .left5{
@@ -500,6 +498,7 @@ nav>#logo>i {
         bottom: 15%;
         left: 50%;
         transform: translatex(-50%);
+        bottom: 6%;
     }
 
 } 
