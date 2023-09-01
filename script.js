@@ -1,3 +1,5 @@
+alert("Use PC/Laptop for better experience ");
+
 function loco() {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -32,6 +34,7 @@ ScrollTrigger.refresh();
 loco()
 
 
+
 gsap.to("#page>video",{
     scrollTrigger:{
         trigger:`#page>video`,
@@ -44,26 +47,26 @@ gsap.to("#page>video",{
     }
 })
 
-// gsap.to("#page",{
-//     scrollTrigger:{
-//         trigger:`#page`,
-//         start:`top top`,
-//         end:`bottom top`,
-//         scroller:`#main`,
-//         pin:true
-//     }
-// })
+gsap.to("#page",{
+    scrollTrigger:{
+        trigger:`#page`,
+        start:`top top`,
+        end:`bottom top`,
+        scroller:`#main`,
+        pin:true
+    }
+})
 
-// gsap.to("#page-bottom",{
-//     scrollTrigger:{
-//         trigger:`#page-bottom`,
-//         start:`5% top`,
-//         end:`bottom top`,
-//         scroller:`#main`,
-//         // scrub:.5,
-//     },
-//     opacity:0
-// })
+gsap.to("#page-bottom",{
+    scrollTrigger:{
+        trigger:`#page-bottom`,
+        start:`5% top`,
+        end:`bottom top`,
+        scroller:`#main`,
+        scrub:.5,
+    },
+    opacity:0
+})
 
 var tl = gsap.timeline({
     scrollTrigger:{
