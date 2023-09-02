@@ -24,7 +24,7 @@ html,body {
 
 #navbar>nav{
     height: 7vh;
-    width: 72vw;
+    width: 75vw;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -37,7 +37,7 @@ html,body {
 }
 
 nav>#logo>i {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 #navlist {
@@ -45,15 +45,17 @@ nav>#logo>i {
     display: flex;
     justify-content: space-between;
 }
-
+#navlist>ul{
+    font-size: 0.88rem;
+}
 #endicons {
-    width:  7%;
+    width:  8%;
     display: flex;
     justify-content: space-between;
 }
 
 #endicons>ul>i {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 #sidebar {
@@ -93,16 +95,16 @@ nav>#logo>i {
 @media (min-width: 600px) and (max-width: 940px) {
 
     #navbar {
-        height: 10vw;
+        height: 6.5vh;
     }
 
     #navbar>nav {
         width: 100vw;
-        height: 10vw;
+        height: 6.5vh;
         padding: 0 30px;
     }
     nav>#logo>i {
-        font-size: 5.5vw;
+        font-size: 6.5vw;
     }
     #navlist {
         display: none;
@@ -112,6 +114,35 @@ nav>#logo>i {
     }
     #endicons>ul>i {
         font-size: 4.5vw;
+    }
+    
+    #sidebar {
+        display: block;
+    }
+
+}
+
+/* For rotating screen */
+@media (max-height: 500px) {
+    #navbar {
+        height: 9vh;
+    }
+
+    #navbar>nav {
+        width: 100vw;
+        height: 9vh;
+    }
+    nav>#logo>i {
+        font-size: 3.3vw;
+    }
+    #navlist {
+        display: none;
+    }
+    #endicons {
+        width:  17%;
+    }
+    #endicons>ul>i {
+        font-size: 2.5vw;
     }
     
     #sidebar {
@@ -133,17 +164,18 @@ nav>#logo>i {
     align-items: center;
     justify-content: space-between;
     height: 7vh;
-    width: 72vw;
+    width: 75vw;
     position: absolute;
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
     color: #f5f2f2;
+    padding-right: 1vw;
    
 }
 
 #page>nav>button{
-    padding: 7px 20px;
+    padding: 5px 20px;
     border-radius: 50px;
     border: none;
     background-color: #f5f2f2;
@@ -162,7 +194,7 @@ nav>#logo>i {
 }
 
 #page>img{
-    height: 30%;
+    height: 31%;
     width: 100%;
     object-fit: cover;
     position: absolute;
@@ -228,7 +260,7 @@ nav>#logo>i {
     }
 
     #page-bottom>img {
-        width: 75vw;
+        width: 74vw;
     }
 }
 
@@ -240,7 +272,7 @@ nav>#logo>i {
     }
     #page>nav {
         width: 100vw;
-        height: 9.2vw;
+        height: 6.2vh;
         padding: 0 30px;
     }
     #page>nav>h3{
@@ -254,11 +286,14 @@ nav>#logo>i {
     }
 
     #page>video{
-        height: 100%;
-        width: 100%;  
+        display: none; 
+    }
+    #page>img{
+        display: block;
+        height: 40%;
     }
     #page-bottom{
-        bottom: 10%;
+        bottom: 17%;
     }
     #page-bottom>h3{
         font-size: 5vw;
@@ -268,6 +303,38 @@ nav>#logo>i {
 
     #page-bottom>img {
         width: 60vw;
+    }
+}
+
+/* For rotating screen */
+@media (max-height: 500px) {
+    #page>nav {
+        width: 100vw;
+        height: 8vh;
+    }
+    #page>nav>h3{
+        font-size: 2.5vw;
+    }
+    #page>nav>button{
+        font-size: 2vw;
+    }
+    #page>img{
+        height: 50%;
+        width: 50%;
+        top: 37%;
+    }
+    #page-bottom{
+        bottom: 10%;
+    }
+    #page-bottom{
+        bottom: 15%;
+    }
+    #page-bottom>h3{
+        font-size: 2.5vw;
+        margin-bottom: 0;
+    }
+    #page-bottom>img {
+        width: 35vw;
     }
 }
 
@@ -1459,7 +1526,7 @@ nav>#logo>i {
         position: absolute;
         height: 60%;
         width: 90%;
-        bottom: 0;
+        bottom: 2%;
         left: 6%;
         color: #fff;
     }
@@ -1489,6 +1556,7 @@ nav>#logo>i {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        
     }
 }
 

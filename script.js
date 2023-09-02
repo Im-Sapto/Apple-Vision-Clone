@@ -1,4 +1,4 @@
-alert("Use PC/Laptop for better experience ");
+alert("🔴 WARNING : \n\nThis is a Heavy Landing Page. Make Sure You have a Good Internet Connection & Scroll Down Slowly for the Best Experience.");
 
 function loco() {
     gsap.registerPlugin(ScrollTrigger);
@@ -47,26 +47,28 @@ gsap.to("#page>video",{
     }
 })
 
-gsap.to("#page",{
-    scrollTrigger:{
-        trigger:`#page`,
-        start:`top top`,
-        end:`bottom top`,
-        scroller:`#main`,
-        pin:true
-    }
-})
+// gsap.to("#page",{
+//     scrollTrigger:{
+//         trigger:`#page`,
+//         start:`top top`,
+//         end:`bottom top`,
+//         scroller:`#main`,
+//         pin:true
+//     }
+// })
 
-gsap.to("#page-bottom",{
-    scrollTrigger:{
-        trigger:`#page-bottom`,
-        start:`5% top`,
-        end:`bottom top`,
-        scroller:`#main`,
-        scrub:.5,
-    },
-    opacity:0
-})
+
+// gsap.to("#page-bottom",{
+//     scrollTrigger:{
+//         trigger:`#page-bottom`,
+//         start:`5% top`,
+//         end:`bottom top`,
+//         scroller:`#main`,
+//         scrub:.5,
+//     },
+//     opacity:0
+// })
+
 
 var tl = gsap.timeline({
     scrollTrigger:{
