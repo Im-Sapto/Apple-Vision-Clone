@@ -1606,7 +1606,8 @@ nav>#logo>i {
     font-size: 2vw;
     font-weight: 500;
     width: 70%;
-    margin-bottom: 1.5vw;    
+    margin-bottom: 1.5vw; 
+    line-height: 1.7rem;   
    
 }
 #center-div>p>span {
@@ -1630,7 +1631,7 @@ nav>#logo>i {
 @media (max-width: 540px) {
     
     #page24{
-        height: 115vh;
+        height: 110vh;
         width: 100vw;
     
     }
@@ -1648,10 +1649,11 @@ nav>#logo>i {
         margin-bottom: 7.5vw;        
     }
     #center-div>p {
-        font-size: 5.5vw;
+        font-size: 5.2vw;
         width: 90%;
-        margin-bottom: 6vw;   
+        margin-bottom: 6.2vw;   
         font-weight: 500; 
+        line-height: 1.8 rem;
     }
     #center-div>a {
         font-size: 5vw;
