@@ -621,7 +621,7 @@ nav>#logo>i {
     }
     .left5>h1{
         width: 80%;
-        font-size: 7.5vw;
+        font-size: 7.3vw;
         white-space: nowrap;
         text-align: left;
         top: 50%;
@@ -638,7 +638,7 @@ nav>#logo>i {
         padding: 0;
     }
     .right5>h3{
-        font-size: 6vw;
+        font-size: 5.5vw;
         width: 90%;
         color: #484848d7;
         left: 5%;
@@ -648,7 +648,7 @@ nav>#logo>i {
     .right5>button{
         padding: 12px 7px;
         width: 70%;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 5vw;
         bottom: 15%;
         left: 50%;
@@ -1650,7 +1650,8 @@ nav>#logo>i {
     #center-div>p {
         font-size: 5.5vw;
         width: 90%;
-        margin-bottom: 6.5vw;    
+        margin-bottom: 6.5vw;   
+        font-weight: 400; 
     }
     #center-div>a {
         font-size: 5vw;
@@ -1671,7 +1672,7 @@ nav>#logo>i {
 #footer>#logo{
     color:  #d6d2d2;
     height: 10vh;
-    width: 85%;
+    width: 87%;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -1689,7 +1690,7 @@ nav>#logo>i {
 #footer>#midpart{
     color: #d6d2d2;
     height: 4vh;
-    width: 85%;
+    width: 87%;
     display: flex;
     align-items: center;
 }
@@ -1704,7 +1705,7 @@ nav>#logo>i {
 #footer>#bottom{
     color: #d6d2d2;
     height: 4vh;
-    width: 85%;
+    width: 87%;
     display: flex;
     align-items: center;
     justify-content: space-between;
