@@ -33,7 +33,7 @@ html,body {
     justify-content: space-between;
     color: #d6d2d2;
     font-size: 0.8rem;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 nav>#logo>i {
@@ -129,7 +129,7 @@ nav>#logo>i {
     }
 
     #navbar>nav {
-        width: 100vw;
+        width: 90vw;
         height: 9vh;
     }
     nav>#logo>i {
@@ -179,6 +179,7 @@ nav>#logo>i {
     border-radius: 50px;
     border: none;
     background-color: #f5f2f2;
+    font-weight: 400;
 }
 #page>nav>h3{
     font-weight: 500;
@@ -242,6 +243,7 @@ nav>#logo>i {
         font-size: 4.2vw;
         padding: 3px 15px;
         border-radius: 50px;
+        font-weight: 500;
     }
 
     #page>video{
@@ -283,6 +285,7 @@ nav>#logo>i {
         font-size: 3.7vw;
         padding: 3px 20px;
         border-radius: 50px;
+        font-weight: 500;
     }
 
     #page>video{
@@ -309,7 +312,7 @@ nav>#logo>i {
 /* For rotating screen */
 @media (max-height: 500px) {
     #page>nav {
-        width: 100vw;
+        width: 90vw;
         height: 8vh;
     }
     #page>nav>h3{
@@ -1601,7 +1604,7 @@ nav>#logo>i {
     color: #ffffff7c;
     text-align: center;
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 500;
     width: 70%;
     margin-bottom: 1.5vw;    
    
@@ -1616,7 +1619,7 @@ nav>#logo>i {
     color: #fff;
     text-align: center;
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 500;
     width: 60%;
 }
 
@@ -1692,7 +1695,7 @@ nav>#logo>i {
 }
 #footer>#midpart>p{
     font-size: 1vw;
-    font-weight: 100;
+    font-weight: 500;
     word-spacing: 0.3vw;
 }
 #midpart>p>a{
@@ -1708,12 +1711,12 @@ nav>#logo>i {
 }
 #bottom>p{
     font-size: 1.1vw;
-    font-weight: 100;
+    font-weight: 500;
     word-spacing: 0.3vw;
 }
 #links>p{
     font-size: 1.1vw;
-    font-weight: 100;
+    font-weight: 500;
     word-spacing: 0.3vw;
 }
 #links>p>a{
@@ -1724,7 +1727,7 @@ nav>#logo>i {
 }
 #bottom>p>span{
     font-size: 1.5vw;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media (max-width: 540px) {
